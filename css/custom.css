@@ -9,7 +9,7 @@
 .hide:after {
     position: absolute;
     opacity: 0;
-    content: 'Click to reveal hide';
+    content: '点击以显示隐藏的内容';
     top: 45%;
     left: calc(50% - 100px);
     text-shadow: none;
