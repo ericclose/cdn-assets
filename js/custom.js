@@ -19,8 +19,3 @@ $( window ).resize( function () {
   });
 // Resize to fix all iframes on page load.
 }).resize();
-
-// spoilers
-$(document).on('click', '.hide', function() {
-  $(this).removeClass('hide');
-});
