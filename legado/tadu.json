@@ -1,0 +1,48 @@
+[
+  {
+    "bookSourceGroup": "",
+    "bookSourceName": "塔读文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.tadu.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "男生人气榜::https://www.tadu.com/store/98-a-0-3-a-20-p-{{page}}-98\n男生推荐榜::https://www.tadu.com/store/98-a-0-9-a-20-p-{{page}}-98\n男生总字数::https://www.tadu.com/store/98-a-0-1-a-20-p-{{page}}-98\n东方玄幻::https://www.tadu.com/store/99-a-0-3-a-20-p-{{page}}-98\n现代都市:https://www.tadu.com/store/103-a-0-3-a-20-p-{{page}}-98\n脑洞创意::https://www.tadu.com/store/135-a-0-3-a-20-p-{{page}}-98\n历史架空::https://www.tadu.com/store/108-a-0-3-a-20-p-{{page}}-98\n军事战争::https://www.tadu.com/store/113-a-0-3-a-20-p-{{page}}-98\n游戏竞技::https://www.tadu.com/store/112-a-0-3-a-20-p-{{page}}-98\n武侠仙侠::https://www.tadu.com/store/109-a-0-3-a-20-p-{{page}}-98\n科幻末世::https://www.tadu.com/store/111-a-0-3-a-20-p-{{page}}-98\n灵异悬疑::https://www.tadu.com/store/128-a-0-3-a-20-p-{{page}}-98\n西方奇幻::https://www.tadu.com/store/107-a-0-3-a-20-p-{{page}}-98\n短篇小说::https://www.tadu.com/store/281-a-0-3-a-20-p-{{page}}-98\n女生总人气::https://www.tadu.com/store/122-a-0-3-a-20-p-{{page}}-122\n出版总人气::https://www.tadu.com/store/79-a-0-3-a-20-p-{{page}}-79\n二次元总人气::https://www.tadu.com/store/270-a-0-3-a-20-p-{{page}}-270",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "intro": "tag.p.1@text",
+      "name": "class.bkNm@text",
+      "tocUrl": "text.目录.0@href"
+    },
+    "ruleContent": {
+      "content": "id.bookPartResourceUrl@value\n<js>result=java.ajax(result);String(result).replace(/^callback.+?:'|'\\}\\)$/g,\"\")</js>"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "class.authorNm@tag.a.0@text",
+      "bookList": "tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@data-src",
+      "intro": "p@text",
+      "kind": "class.classifyLt@tag.a.0@text",
+      "lastChapter": "class.updateNew@tag.a.0@text##最新更新：",
+      "name": "class.bookNm@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "+class.chapter@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.tadu.com/search?query={{key}}&pageSize=30&pageNum={{page}}",
+    "weight": 0
+  }
+]
